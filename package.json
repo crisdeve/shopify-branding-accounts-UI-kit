@@ -1,0 +1,18 @@
+{
+  "name": "shopify-checkout-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cliente ligero para el Admin GraphQL API de Shopify y scripts para personalizar Checkout y Customer Accounts (fuentes personalizadas).",
+  "type": "module",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "shop": "node --env-file=.env scripts/shop-info.js",
+    "configs": "node --env-file=.env scripts/list-configurations.js",
+    "config:show": "node --env-file=.env scripts/show-configuration.js",
+    "font:upload": "node --env-file=.env scripts/upload-font.js",
+    "font:apply": "node --env-file=.env scripts/apply-font.js",
+    "gql": "node --env-file=.env scripts/gql.js"
+  }
+}

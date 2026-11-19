@@ -1,0 +1,13 @@
+{
+  "configurationId": "gid://shopify/CheckoutAndAccountsConfiguration/10116890790",
+  "primary": {
+    "loadingStrategy": "SWAP",
+    "base": { "file": "fonts/CeraPro-Regular.woff2", "weight": 400 },
+    "bold": { "file": "fonts/CeraPro-Bold.woff2", "weight": 700 }
+  },
+  "secondary": {
+    "loadingStrategy": "SWAP",
+    "base": { "file": "fonts/CeraPro-Regular.woff2", "weight": 400 },
+    "bold": { "file": "fonts/CeraPro-Bold.woff2", "weight": 700 }
+  }
+}
